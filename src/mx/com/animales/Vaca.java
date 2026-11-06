@@ -10,4 +10,10 @@ public class Vaca extends Animal {
     public void hacerSonido() {
         System.out.println("Muuuu 🐄");
     }
+
+
+    @Override
+    public void moverse() {
+        System.out.println("Camina");
+    }
 }

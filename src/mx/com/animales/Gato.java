@@ -10,4 +10,10 @@ public class Gato extends Animal {
     public void hacerSonido() {
         System.out.println("Miauuu😸");
     }
+
+
+    @Override
+    public void moverse() {
+        System.out.println("Camina");
+    }
 }
